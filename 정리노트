@@ -1,0 +1,51 @@
+SPA?
+    Single Page Application - 단일 페이지로 웹 어플리케이션을 개발
+SPA의 개발무게
+    전통적인 백엔드 중심의 개발 무게가 프론트 엔드로 이동.
+
+index.html?
+    호스트(클라이언트)는 브라우저이며, index.html은 앱의 시작점이면서 부분적인 화면의 DOM에 대한 컨테이너.
+
+부분 뷰 - Partial Views?
+    index.html에서 렌더링하는 부분 뷰로 ng-view로 부분 뷰를 교체.
+
+템플릿?
+    템플릿은 앵귤러에 의해 해석되며, 데이터 바인딩이 일어난다.
+
+ng-app?
+    ng-app을 통해 앵귤러 모듈을 지정하며, 앱이 초기화 된다.
+
+MV* 패턴?
+    앵귤러가 지원하는 MODEL, VIEW, WHATEVER 개발 패턴.
+
+MODEL?
+    $scope에 의해 관리되는 데이터
+
+VIEW?
+    HTML이 담당하며 사용자에게 보여지는 UI
+
+CONTROLLER?
+    컨트롤러는 뷰(HTML)과 스코프의 상호작용을 지원.
+    기능 요소(메서드를 통한) 지원
+
+$SCOPE?
+
+
+지시자?
+    -ng-repeat
+    -ng-model
+
+ng-Route?
+
+$routeProvider.when()?
+    라우트 설정, when("urlSegment", { templateUrl: "부분뷰 위치", controller: "컨트롤러이름" })
+$routeProvider.otherwise()?
+    라우트 설정. otherwise({ redirectTo: "when으로 설정한 urlSegment를 지정" })
+
+ng-submit?
+ng-repeat의 $index?
+$scope.메서드?
+
+의존성 설정?
+angular.module("모듈명", [의존 관계 모듈])
+
